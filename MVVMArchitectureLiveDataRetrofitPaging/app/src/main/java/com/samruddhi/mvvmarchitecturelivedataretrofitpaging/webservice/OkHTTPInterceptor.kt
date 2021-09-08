@@ -6,7 +6,7 @@ import okhttp3.Response
 import java.io.IOException
 import java.util.*
 
-class AuthenticationInterceptor(private var apiKey: String) : Interceptor {
+class OkHTTPInterceptor(private var apiKey: String) : Interceptor {
 
     @Throws(IOException::class)
     override fun intercept(chain: Interceptor.Chain): Response {

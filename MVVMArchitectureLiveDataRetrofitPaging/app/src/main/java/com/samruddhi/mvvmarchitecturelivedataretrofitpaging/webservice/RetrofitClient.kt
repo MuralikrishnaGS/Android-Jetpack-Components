@@ -14,7 +14,7 @@ object RetrofitClient {
             val logging = HttpLoggingInterceptor()
             logging.level = HttpLoggingInterceptor.Level.BODY
             val client = OkHttpClient.Builder()
-                .addInterceptor(interceptor = AuthenticationInterceptor(apiKey))
+                .addInterceptor(interceptor = OkHTTPInterceptor(apiKey))
                 .addInterceptor(logging)
                 .build()
             retrofit = Retrofit.Builder()

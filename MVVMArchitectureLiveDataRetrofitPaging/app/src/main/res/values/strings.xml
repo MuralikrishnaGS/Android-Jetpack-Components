@@ -3,7 +3,9 @@
 
     //Zomato API Key
     <string name="app_url">https://developers.zomato.com/api/v2.1/</string>
-    <string name="api_key">1b3c8b37ea96785391fa55c288ac385c</string>
+
+    /*** Your API Key ***/
+    <string name="api_key">#To-DO</string>
 
     //amount symbol
     <string name="rupee_symbol">\u20B9</string>
