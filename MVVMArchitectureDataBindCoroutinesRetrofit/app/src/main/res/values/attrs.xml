@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="textAppearanceTextInputError" format="reference" />
+    <attr name="textAppearanceListPrimary" format="reference" />
+    <attr name="textAppearanceListSecondary" format="reference" />
+    <attr name="textAppearanceListSubHeader" format="reference" />
+    <attr name="textAppearanceListSubHeaderInverse" format="reference" />
+    <attr name="textAppearanceRegularInverse" format="reference" />
+    <attr name="textAppearancePositive" format="reference" />
+    <attr name="textAppearanceStatus" format="reference" />
+    <attr name="textAppearanceRegular" format="reference" />
+    <attr name="textAppearanceRegularSecondary" format="reference" />
+    <attr name="textAppearanceMediumPrimary" format="reference" />
+    <attr name="textAppearanceMediumInversePrimary" format="reference" />
+    <attr name="textAppearanceMediumSecondary" format="reference" />
+    <attr name="textAppearanceMediumInverseSecondary" format="reference" />
+    <attr name="textAppearanceRegularDark" format="reference" />
+    <attr name="textAppearanceCaption" format="reference" />
+    <attr name="textAppearanceCaptionSecondary" format="reference" />
+    <attr name="textAppearanceCaptionInverse" format="reference" />
+    <attr name="textAppearanceCaptionSecondaryInverse" format="reference" />
+    <attr name="textAppearanceTitleInverse" format="reference" />
+    <attr name="textAppearanceTitle" format="reference" />
+    <attr name="textAppearanceTabText" format="reference" />
+    <attr name="textAppearanceWidgetTitle" format="reference" />
+
+    <attr name="colorPositive" format="reference" />
+    <attr name="colorPositiveDark" format="reference" />
+    <attr name="colorNegative" format="reference" />
+    <attr name="colorNegativeDark" format="reference" />
+    <attr name="colorNegativeLight" format="reference" />
+    <attr name="colorDivider" format="reference" />
+
+</resources>

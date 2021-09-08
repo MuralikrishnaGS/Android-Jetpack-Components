@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MVVMArchitectureDataBindCoroutinesRetrofit</string>
+
+    //Zomato API
+    <string name="app_url">https://developers.zomato.com/api/v2.1/</string>
+
+    /*** Your API Key ***/
+    <string name="api_key">#To-DO</string>
+
+    //amount symbol
+    <string name="rupee_symbol">\u20B9</string>
+
+    //gps permission
+    <string name="permission_request">App requires location permission</string>
+    <string name="latLong">Longitude: %.3f, Latitude: %.3f</string>
+
+    <string name="shared_btn_ok">OK</string>
+    <string name="shared_btn_cancel">Cancel</string>
+
+    //network permission
+    <string name="noNetworkConnection">You do not have network connectivity. Please check your connection and try again.</string>
+
+</resources>
