@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand">#4CAF50</color>
+    <color name="brand_dark">#388E3C</color>
+    <color name="brand_inverse">#FFFFFF</color>
+    <color name="brand_accent">#FF5252</color>
+
+    <color name="brand_text_primary">#212121</color>
+    <color name="brand_text_secondary">#757575</color>
+    <color name="brand_text_primary_disabled">#CCCCCC</color>
+    <color name="brand_text_secondary_disabled">#CCCCCC</color>
+
+    <color name="brand_text_inverse_primary">#FFFFFF</color>
+    <color name="brand_text_inverse_secondary">#CCCCCC</color>
+
+    <color name="grey">#999999</color>
+    <color name="light_grey">#EEEEEE</color>
+
+    <color name="positive">#009933</color>
+    <color name="positive_dark">#00813c</color>
+
+    <color name="negative">#ff3333</color>
+    <color name="negative_light">#FF6666</color>
+    <color name="negative_dark">#CC2929</color>
+
+    <!-- List -->
+    <color name="list_item_default_divider_color">#BDBDBD</color>
+
+</resources>

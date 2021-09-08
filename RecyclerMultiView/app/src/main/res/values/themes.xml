@@ -1,0 +1,168 @@
+<resources>
+
+    <!-- Text Appearances -->
+    <style name="TextAppearanceTitleInverse" parent="TextAppearance.AppCompat.Title.Inverse" />
+
+    <style name="TextAppearanceTitle" parent="TextAppearance.AppCompat.Title" />
+
+    <style name="TextAppearanceTextInputErrorDark" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textColor">@color/negative_light</item>
+    </style>
+
+    <style name="TextAppearanceCaption" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="TextAppearanceCaptionSecondary" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+    <style name="TextAppearanceCaptionInverse" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+    </style>
+
+    <style name="TextAppearanceCaptionSecondaryInverse" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textColor">?android:attr/textColorSecondaryInverse</item>
+    </style>
+
+    <style name="TextAppearanceWidgetTitle" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textSize">@dimen/font_widget_title</item>
+    </style>
+
+    <style name="TextAppearanceRegular" parent="TextAppearance.AppCompat.Subhead">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="TextAppearanceRegularSecondary" parent="TextAppearance.AppCompat.Subhead">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+    <style name="TextAppearanceRegularDark" parent="TextAppearance.AppCompat.Subhead">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="TextAppearanceListPrimary" parent="TextAppearance.AppCompat.Subhead">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="TextAppearanceRegularInverse" parent="TextAppearance.AppCompat.Subhead">
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+    </style>
+
+    <style name="TextAppearancePositive" parent="TextAppearance.AppCompat.Subhead">
+        <item name="android:textColor">?attr/colorPositive</item>
+    </style>
+
+    <style name="TextAppearanceMediumPrimary" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="TextAppearanceMediumInversePrimary" parent="TextAppearance.AppCompat.Medium.Inverse">
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+    </style>
+
+    <style name="TextAppearanceMediumSecondary" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+    <style name="TextAppearanceMediumInverseSecondary" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textColor">?android:attr/textColorSecondaryInverse</item>
+    </style>
+
+    <style name="TextAppearanceListSubHeader" parent="TextAppearance.AppCompat.Button">
+        <item name="android:textColor">?colorPrimary</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="TextAppearanceListSubHeaderInverse" parent="TextAppearance.AppCompat.Button">
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="TextAppearanceStatus" parent="TextAppearance.AppCompat.Button">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="TextAppearanceListSecondary" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+    <!--- Mother of themes  ================================================================== -->
+
+    <style name="MotherTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Base application theme common to all sdk versions -->
+        <!--Colors-->
+        <item name="colorPrimaryDark">@color/brand_dark</item>
+        <item name="colorPrimary">@color/brand</item>
+        <item name="colorAccent">@color/brand_accent</item>
+        <item name="colorPositive">@color/positive</item>
+        <item name="colorPositiveDark">@color/positive_dark</item>
+        <item name="colorNegative">@color/negative</item>
+        <item name="colorNegativeDark">@color/negative_dark</item>
+        <item name="colorNegativeLight">@color/negative_light</item>
+        <item name="colorDivider">@color/list_item_default_divider_color</item>
+
+        <!--Text Appearance -->
+        <item name="textAppearanceListPrimary">@style/TextAppearanceListPrimary</item>
+        <item name="textAppearanceListSecondary">@style/TextAppearanceListSecondary</item>
+        <item name="textAppearanceListSubHeader">@style/TextAppearanceListSubHeader</item>
+        <item name="textAppearanceListSubHeaderInverse">@style/TextAppearanceListSubHeaderInverse
+        </item>
+        <item name="textAppearanceWidgetTitle">@style/TextAppearanceWidgetTitle</item>
+        <item name="textAppearanceRegular">@style/TextAppearanceRegular</item>
+        <item name="textAppearanceRegularSecondary">@style/TextAppearanceRegularSecondary</item>
+        <item name="textAppearanceMediumPrimary">@style/TextAppearanceMediumPrimary</item>
+        <item name="textAppearanceMediumInversePrimary">@style/TextAppearanceMediumInversePrimary
+        </item>
+        <item name="textAppearanceMediumSecondary">@style/TextAppearanceMediumSecondary</item>
+        <item name="textAppearanceMediumInverseSecondary">
+            @style/TextAppearanceMediumInverseSecondary
+        </item>
+        <item name="textAppearanceRegularInverse">@style/TextAppearanceRegularInverse</item>
+        <item name="textAppearanceRegularDark">@style/TextAppearanceRegularDark</item>
+        <item name="textAppearancePositive">@style/TextAppearancePositive</item>
+        <item name="textAppearanceTitle">@style/TextAppearanceTitle</item>
+        <item name="textAppearanceTitleInverse">@style/TextAppearanceTitleInverse</item>
+        <item name="textAppearanceStatus">@style/TextAppearanceStatus</item>
+        <item name="textAppearanceCaption">@style/TextAppearanceCaption</item>
+        <item name="textAppearanceCaptionSecondary">@style/TextAppearanceCaptionSecondary</item>
+        <item name="textAppearanceCaptionInverse">@style/TextAppearanceCaptionInverse</item>
+        <item name="textAppearanceCaptionSecondaryInverse">
+            @style/TextAppearanceCaptionSecondaryInverse
+        </item>
+
+        <!-- Others-->
+        <item name="actionBarSize">@dimen/toolbar_height</item>
+        <item name="android:windowBackground">@color/brand_inverse</item>
+
+    </style>
+
+    <style name="MotherThemeDark" parent="ThemeOverlay.AppCompat.Dark">
+        <!-- Base application theme common to all sdk versions -->
+        <item name="android:windowBackground">@color/brand_text_secondary</item>
+        <!--Text Appearance-->
+        <item name="textAppearanceTextInputError">@style/TextAppearanceTextInputErrorDark</item>
+        <!--Text Color-->
+        <item name="android:textColorPrimary">@color/brand_text_inverse_primary</item>
+        <item name="android:textColorSecondary">@color/brand_text_inverse_secondary</item>
+
+        <item name="android:textColorPrimaryInverse">@color/brand_text_primary</item>
+        <item name="android:textColorSecondaryInverse">@color/brand_text_secondary</item>
+
+    </style>
+
+    <!--- Themes to be used ================================================================== -->
+
+    <style name="AppTheme" parent="MotherTheme">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:actionBarSize">@dimen/toolbar_height</item>
+    </style>
+
+    <style name="ToolbarTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="LoadingDialogTheme" parent="MotherThemeDark">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+</resources>
