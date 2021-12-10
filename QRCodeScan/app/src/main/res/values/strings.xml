@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">QRCodeScan</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="scan_barcode">Scan QR/BarCode</string>
+    <string name="scan_history">BarCode History</string>
+
+    <string name="title_permission_denied">Permission Denied</string>
+    <string name="permission_request">App requires Camera permission</string>
+
+    <string name="scanner_content">BarCode Content: </string>
+    <string name="scanner_type">BarCode Type: </string>
+    <string name="scanner_value">BarCode Value: </string>
+
+    <string name="shared_btn_ok">OK</string>
+    <string name="shared_btn_cancel">Cancel</string>
+    <string name="shared_btn_back">Back</string>
+    <string name="shared_btn_save">Save</string>
+    <string name="share">Share</string>
+    <string name="exit">exit</string>
+
+    <string name="flash_button">Toggle camera flash</string>
+    <string name="gallery_button">Gallery</string>
+</resources>

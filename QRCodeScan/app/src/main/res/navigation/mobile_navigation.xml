@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.samruddhi.qrcodescan.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_mainFragment_to_permissionsFragment"
+            app:destination="@id/permissionsFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_scanHistoryFragment"
+            app:destination="@id/scanHistoryFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/cameraFragment"
+        android:name="com.samruddhi.qrcodescan.fragments.CameraFragment"
+        android:label="CameraFragment">
+        <action
+            android:id="@+id/action_cameraFragment_to_mainFragment"
+            app:popUpTo="@id/homeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/permissionsFragment"
+        android:name="com.samruddhi.qrcodescan.fragments.PermissionsFragment"
+        android:label="PermissionsFragment">
+        <action
+            android:id="@+id/action_permissionsFragment_to_cameraFragment"
+            app:destination="@id/cameraFragment"
+            app:popUpTo="@id/homeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/scanHistoryFragment"
+        android:name="com.samruddhi.qrcodescan.fragments.ScanHistoryFragment"
+        android:label="ScanHistoryFragment" />
+
+</navigation>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ScanHistoryFragment">
+
+        <LinearLayout
+            android:id="@+id/linearLayoutNothing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="168dp"
+                android:layout_height="106dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_roadblock" />
+
+            <TextView
+                android:id="@+id/textViewNotFound"
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                android:text="Nothing Found, Try Scanning Some Barcodes First!" />
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
